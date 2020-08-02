@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#container{
+    max-width: 1080px;
+    margin: 15vh auto 0vh auto;
+}
+
+h1{
+    text-align:center;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+li {
+    margin: 0 auto;
+    width: 500px;
+    height: 50px;
+    background-color: yellow;
+    margin-bottom: 10px;
+    padding: 15px 5px;
+    justify-content: center;
+}
